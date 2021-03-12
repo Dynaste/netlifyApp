@@ -1,0 +1,11 @@
+---
+application:
+  name: "netlifyapp"
+  project: "new-app"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-netlifyapp"
+  routes:
+  - application_name: "netlifyapp"
+    paths:
+    - "/*"
